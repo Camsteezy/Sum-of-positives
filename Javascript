@@ -1,0 +1,6 @@
+function positiveSum(arr) {
+let pos = arr.filter(n=> n > 0)
+return pos.reduce((acc,c)=> acc + c , 0 )
+
+}
+
